@@ -4,13 +4,12 @@ app = Flask(__name__)
 
 # Full character data
 characters = [
-    {"Character Name": "Olivia", "Skill id": "106", "Png Image": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202211/435b2230bb59c6a7f087d841e7dc8590.png8"},
+    {"Character Name": "Olivia", "Skill id": "106", "Png Image": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202211/435b2230bb59c6a7f087d841e7dc8590.png"},
     {"Character Name": "Kelly", "Skill id": "206", "Png Image": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202311/a80ef2744fa83dc119cc09249d70444e.png"},
     {"Character Name": "Ford", "Skill id": "306", "Png Image": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202211/e4eba268be6b474381acc6c4b282f5ea.png"},
     {"Character Name": "Andrew", "Skill id": "406", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/564762d9a1137afaf2c9abb0ea8862b7.png"},
     {"Character Name": "Nikita", "Skill id": "506", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/93bac478d8b64e0a6b31fee8c75220d9.png"},
-    {"Character Name": "Misha", "Skill id": "606", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/33110529f97da7fc1bf681e61a1de2bb.png
-"},
+    {"Character Name": "Misha", "Skill id": "606", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/33110529f97da7fc1bf681e61a1de2bb.png"},
     {"Character Name": "Maxim", "Skill id": "706", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/59dc42433e877fa0cc3bb69b74dbf2c8.png"},
     {"Character Name": "Kla", "Skill id": "806", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/1655985bf74931458766921ee6bb6e0a.png"},
     {"Character Name": "Paloma", "Skill id": "906", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/93a87a41a13af14c2346379a0d917d36.png"},
@@ -42,7 +41,7 @@ characters = [
     {"Character Name": "Chrono", "Skill id": "3806", "Png Image": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202412/6d5de642b070e208a38b037d8233df85.png"},
     {"Character Name": "Skyler", "Skill id": "4006", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/547dea01d82886891297443e8e9d270f.png"},
     {"Character Name": "Shirou", "Skill id": "4106", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/dbe25891f13c5752e84ad7daf57106cc.png"},
-    {"Character Name": "Andrew the Fierce", "Skill id": "4206", "https://i.postimg.cc/ZK1Gzj1T/Andrew-The-Fierce.png"},
+    {"Character Name": "Andrew the Fierce", "Skill id": "4206", "Png Image": "https://i.postimg.cc/ZK1Gzj1T/Andrew-The-Fierce.png"},
     {"Character Name": "Maro", "Skill id": "4306", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/8af9a328d62a330a76221b79670daf37.png"},
     {"Character Name": "Xayne", "Skill id": "4406", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20229/ea05dd27c4f4faf3267679d5f90cdaec.png"},
     {"Character Name": "D-Bee", "Skill id": "4506", "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/f1a09717ed71e7302da8d4cc889d2e33.png"},
